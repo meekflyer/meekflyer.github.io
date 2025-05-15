@@ -5,7 +5,7 @@ date:   2025-05-15 20:00:00 +0100
 categories: review book
 ---
 
-# Review
+### Review
 I slowly started Paul Tough's book [How Children Succeed: Grit, Curiosity, and the Hidden Power of Character](https://amzn.to/4kfbY5m). I finished it fast. Not out of interest - I got bored, then confused, then raced through to grab highlights of the more interesting works the author was citing.
 
 This reads like a book written under the cloud of a contract deadline. Where the author attempts to weave in storyline, everything gets tangled, convuleted by disparate notes. You may have the thought picking up the book that you'll learn how children succeed. You won't get a clear answer, but the author's conclusions wander until he lands on proposing a comprehensive government approach.
@@ -14,7 +14,7 @@ Your motivation to pick up a book like this might be different. Mine was to get 
 
 If that sounds similar to you, this book will feel shallow, but it will point you to deeper water.
 
-# Notes and Quotes
+### Notes and Quotes
 ## To Remember
 Laurence Steinberg, a psychologist at Temple University, has analyzed two separate neurological systems that develop in childhood and early adulthood that together have a profound effect on the lives of adolescents. The problem is, these two systems are not well aligned. The first, called the incentive processing system, makes you more sensation seeking, more emotionally reactive, more attentive to social information. (If you’ve ever been a teenager, this may sound familiar.) The second, called the cognitive control system, allows you to regulate all those urges. The reason the teenage years have always been such a perilous time, Steinberg says, is that the incentive processing system reaches its full power in early adolescence while the cognitive control system doesn’t finish maturing until you’re in your twenties.
 
