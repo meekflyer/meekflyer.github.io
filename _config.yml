@@ -23,8 +23,8 @@ email: meek@meekflyer.net
 description: >- # this means to ignore newlines until "baseurl:"
   Share lift. Minimize drag.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://meekflyer.net" # the base hostname & protocol for your site
+twitter_username: ""
 github_username:  meekflyer
 
 # Build settings
@@ -51,3 +51,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - AGENTS.md

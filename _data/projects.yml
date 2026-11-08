@@ -1,0 +1,5 @@
+# Projects shown on the homepage, in this order.
+# To add one, copy a block and edit it.
+- name: HAMR Time
+  url: https://hamrtime.io
+  description: Mobile app to help Airmen train for the HAMR portion of the Physical Fitness Readiness Assessment.

@@ -1,0 +1,100 @@
+---
+# Front matter needed so Jekyll processes this file
+---
+
+// ============================================================
+// SITE SETTINGS: change these to restyle the whole site.
+// Variables set here override the Minima theme's defaults,
+// so they must stay ABOVE the @import line.
+// ============================================================
+
+// Colors
+$brand-color:       #2a7ae2;   // links, buttons, focus outlines
+$text-color:        #111;
+$background-color:  #fdfdfd;
+$grey-color:        #828282;   // tagline, dates, secondary text
+$grey-color-light:  lighten($grey-color, 40%);  // borders
+
+// Type
+$base-font-size:    16px;
+$base-font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+// Site-specific
+$radius:            4px;       // corner rounding for inputs/buttons
+$section-gap:       2.5rem;    // space above homepage sections
+$form-max-width:    32rem;
+
+@import "minima";
+
+// ============================================================
+// COMPONENTS
+// ============================================================
+
+// --- Homepage intro ---
+.home-tagline {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: $grey-color;
+}
+
+// Anchored sections land slightly below the top edge
+section[id] { scroll-margin-top: 1rem; }
+
+// --- Link list: used for Projects AND Posts ---
+// Restyle both lists at once by editing this block.
+.link-list {
+  li { margin-bottom: 0.35rem; }
+
+  .link-list-detail::before { content: ": "; }
+
+  .link-list-meta {
+    color: $grey-color;
+    &::before { content: " · "; }
+  }
+}
+
+// --- Contact form ---
+.contact { margin-top: $section-gap; }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: $form-max-width;
+
+  label {
+    font-weight: 600;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  input, textarea {
+    font: inherit;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid $grey-color-light;
+    border-radius: $radius;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  input:focus, textarea:focus {
+    outline: 2px solid $brand-color;
+    border-color: $brand-color;
+  }
+
+  button {
+    align-self: flex-start;
+    margin-top: 1rem;
+    padding: 0.55rem 1.4rem;
+    font: inherit;
+    color: #fff;
+    background: $brand-color;
+    border: 0;
+    border-radius: $radius;
+    cursor: pointer;
+
+    &:disabled { opacity: 0.6; cursor: default; }
+  }
+}
+
+.contact-hp { position: absolute; left: -9999px; }  // spam honeypot
+.contact-status { margin-top: 0.75rem; }
