@@ -4,7 +4,7 @@ layout: default
 
 <section id="about">
   <p class="home-tagline">{{ site.description }}</p>
-  <p>Hi! I'm Jonathan Mecham. At a time long past a small group of friends used to call me Meek. This is my Flyer, where I share what I'm working on and what I'm thinking about.</p>
+  <p>Hi! I'm Jonathan Mecham. At one point in my life some friends called me Meek. This is my Flyer, where I share what I'm working on and what I'm thinking about.</p>
 </section>
 
 ## Projects
